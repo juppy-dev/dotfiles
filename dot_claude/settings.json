@@ -1,4 +1,7 @@
 {
+  "env": {
+    "_ZO_DOCTOR": "0"
+  },
   "hooks": {
     "Notification": [
       {
@@ -102,6 +105,7 @@
     "enabled": true,
     "mode": "hold"
   },
+  "theme": "custom:tokyo-nebula-andromeda",
   "skipAutoPermissionPrompt": true,
   "voiceEnabled": true
 }
