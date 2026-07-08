@@ -1,0 +1,349 @@
+{
+  "version": 3,
+  "skills": {
+    "frontend-design": {
+      "source": "anthropics/claude-code",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/claude-code.git",
+      "skillPath": "plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "skillFolderHash": "3bd61bab4d6b858c5d3af8adf14b917ce853e4c5",
+      "installedAt": "2026-04-14T17:39:05.323Z",
+      "updatedAt": "2026-04-27T01:25:43.222Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-04-14T17:39:09.481Z",
+      "updatedAt": "2026-04-14T17:39:09.481Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "67d654a553c1bd21b4cff0d9d61d75cd9a67e635",
+      "installedAt": "2026-04-14T18:03:39.270Z",
+      "updatedAt": "2026-04-14T18:03:39.270Z"
+    },
+    "content-research-writer": {
+      "source": "composiohq/awesome-claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/composiohq/awesome-claude-skills.git",
+      "skillPath": "content-research-writer/SKILL.md",
+      "skillFolderHash": "560a65081b1fc097120e95f04ec82b3fff5549e6",
+      "installedAt": "2026-04-14T18:23:25.547Z",
+      "updatedAt": "2026-04-14T18:23:25.547Z"
+    },
+    "MCP Integration": {
+      "source": "anthropics/claude-code",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/claude-code.git",
+      "skillPath": "plugins/plugin-dev/skills/mcp-integration/SKILL.md",
+      "skillFolderHash": "3e57353b7b88f20216666d616b14015f3574554c",
+      "installedAt": "2026-04-27T01:25:43.805Z",
+      "updatedAt": "2026-04-27T01:25:43.805Z"
+    },
+    "browser-use": {
+      "source": "browser-use/browser-use",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/browser-use/browser-use.git",
+      "skillPath": "skills/browser-use/SKILL.md",
+      "skillFolderHash": "a57dcbf8e8e53bcab189cd4649a436b231d5ea13",
+      "installedAt": "2026-04-27T01:25:57.876Z",
+      "updatedAt": "2026-04-27T01:25:57.876Z"
+    },
+    "brandkit": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/brandkit/SKILL.md",
+      "skillFolderHash": "d278ff748cafab01e4ae5dd7758fc0b53258621c",
+      "installedAt": "2026-05-28T17:40:11.789Z",
+      "updatedAt": "2026-06-07T07:10:08.262Z"
+    },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "skillFolderHash": "a6d128e53b4ec0238baee751dde33bf707adb5ec",
+      "installedAt": "2026-05-28T17:40:11.792Z",
+      "updatedAt": "2026-06-07T07:10:08.267Z"
+    },
+    "design-taste-frontend-v1": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/taste-skill-v1/SKILL.md",
+      "skillFolderHash": "d5c0e8287b7772456d9ee23dc28a7d11848ee023",
+      "installedAt": "2026-05-28T17:40:11.793Z",
+      "updatedAt": "2026-06-07T07:10:08.269Z"
+    },
+    "full-output-enforcement": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/output-skill/SKILL.md",
+      "skillFolderHash": "3dd6ad49b667d15182acddc9d3e4f7763ae33c9c",
+      "installedAt": "2026-05-28T17:40:11.795Z",
+      "updatedAt": "2026-06-07T07:10:08.271Z"
+    },
+    "gpt-taste": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/gpt-tasteskill/SKILL.md",
+      "skillFolderHash": "c87d529ad945cd35985b19475bf53f41682d4f69",
+      "installedAt": "2026-05-28T17:40:11.797Z",
+      "updatedAt": "2026-06-07T07:10:08.272Z"
+    },
+    "high-end-visual-design": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/soft-skill/SKILL.md",
+      "skillFolderHash": "1b5943432ddd1b980206968c529a323cc992dbec",
+      "installedAt": "2026-05-28T17:40:11.797Z",
+      "updatedAt": "2026-06-07T07:10:08.273Z"
+    },
+    "image-to-code": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/image-to-code-skill/SKILL.md",
+      "skillFolderHash": "701b3cb89c061fcf98a98f639e0b0b5c0b492479",
+      "installedAt": "2026-05-28T17:40:11.798Z",
+      "updatedAt": "2026-06-07T07:10:08.274Z"
+    },
+    "imagegen-frontend-mobile": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/imagegen-frontend-mobile/SKILL.md",
+      "skillFolderHash": "9901fcde67e9506a706912107825fdfb72e01f30",
+      "installedAt": "2026-05-28T17:40:11.799Z",
+      "updatedAt": "2026-06-07T07:10:08.275Z"
+    },
+    "imagegen-frontend-web": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/imagegen-frontend-web/SKILL.md",
+      "skillFolderHash": "3b5117d349200e33f9c3399344681620079dcc18",
+      "installedAt": "2026-05-28T17:40:11.800Z",
+      "updatedAt": "2026-06-07T07:10:08.277Z"
+    },
+    "industrial-brutalist-ui": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/brutalist-skill/SKILL.md",
+      "skillFolderHash": "f812ede7e5c34cf680f629911e9f9ac05e416cf4",
+      "installedAt": "2026-05-28T17:40:11.801Z",
+      "updatedAt": "2026-06-07T07:10:08.278Z"
+    },
+    "minimalist-ui": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/minimalist-skill/SKILL.md",
+      "skillFolderHash": "5509c012862cda27e2ed7efae89ed940ecc53add",
+      "installedAt": "2026-05-28T17:40:11.801Z",
+      "updatedAt": "2026-06-07T07:10:08.279Z"
+    },
+    "redesign-existing-projects": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/redesign-skill/SKILL.md",
+      "skillFolderHash": "d9cffe56d26d4af7687299e391a7be1cfaf46c1b",
+      "installedAt": "2026-05-28T17:40:11.803Z",
+      "updatedAt": "2026-06-07T07:10:08.281Z"
+    },
+    "stitch-design-taste": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/stitch-skill/SKILL.md",
+      "skillFolderHash": "743fba3540a3593f15d548935f08f74788e76d3d",
+      "installedAt": "2026-05-28T17:40:11.804Z",
+      "updatedAt": "2026-06-07T07:10:08.282Z"
+    },
+    "audience-growth-tracker-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/audience-growth-tracker-sms/SKILL.md",
+      "skillFolderHash": "b65f68cc8d6d1aa30e6f2711c2cb1c5fad018572",
+      "installedAt": "2026-06-13T14:21:19.370Z",
+      "updatedAt": "2026-06-13T14:21:19.370Z"
+    },
+    "caption-writer-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/caption-writer-sms/SKILL.md",
+      "skillFolderHash": "18311910c4629e849aae55e44857553d34561da7",
+      "installedAt": "2026-06-13T14:21:19.374Z",
+      "updatedAt": "2026-06-13T14:21:19.374Z"
+    },
+    "carousel-writer-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/carousel-writer-sms/SKILL.md",
+      "skillFolderHash": "96794281e37e542f16bc954d70e6f1927209b730",
+      "installedAt": "2026-06-13T14:21:19.375Z",
+      "updatedAt": "2026-06-13T14:21:19.375Z"
+    },
+    "content-calendar-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/content-calendar-sms/SKILL.md",
+      "skillFolderHash": "dd129960bb388ce111de76788d609e7e56c59e42",
+      "installedAt": "2026-06-13T14:21:19.377Z",
+      "updatedAt": "2026-06-13T14:21:19.377Z"
+    },
+    "content-pattern-analyzer-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/content-pattern-analyzer-sms/SKILL.md",
+      "skillFolderHash": "13b2856dfdf07de6d1b1fe62fba52c14ae98a95d",
+      "installedAt": "2026-06-13T14:21:19.378Z",
+      "updatedAt": "2026-06-13T14:21:19.378Z"
+    },
+    "content-repurposer-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/content-repurposer-sms/SKILL.md",
+      "skillFolderHash": "7781064e17549c2d438769ee7d1c6da941b35e3a",
+      "installedAt": "2026-06-13T14:21:19.379Z",
+      "updatedAt": "2026-06-13T14:21:19.379Z"
+    },
+    "content-strategy-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/content-strategy-sms/SKILL.md",
+      "skillFolderHash": "ad20c02c66bae4ca868c57595aaf0d53f4dda388",
+      "installedAt": "2026-06-13T14:21:19.380Z",
+      "updatedAt": "2026-06-13T14:21:19.380Z"
+    },
+    "hook-writer-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/hook-writer-sms/SKILL.md",
+      "skillFolderHash": "9a326689d4d598c89a1f67673d5b643365880655",
+      "installedAt": "2026-06-13T14:21:19.381Z",
+      "updatedAt": "2026-06-13T14:21:19.381Z"
+    },
+    "optimization-advisor-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/optimization-advisor-sms/SKILL.md",
+      "skillFolderHash": "bd24738d89eadbac1e79baf5451c9463c2b89267",
+      "installedAt": "2026-06-13T14:21:19.382Z",
+      "updatedAt": "2026-06-13T14:21:19.382Z"
+    },
+    "performance-analyzer-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/performance-analyzer-sms/SKILL.md",
+      "skillFolderHash": "3e48ce782053e5cda983842f46367ec632a25620",
+      "installedAt": "2026-06-13T14:21:19.383Z",
+      "updatedAt": "2026-06-13T14:21:19.383Z"
+    },
+    "platform-strategy-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/platform-strategy-sms/SKILL.md",
+      "skillFolderHash": "69ea8d9120d7fa4b7cbf5dc98764a6ecf3385c92",
+      "installedAt": "2026-06-13T14:21:19.384Z",
+      "updatedAt": "2026-06-13T14:21:19.384Z"
+    },
+    "post-writer-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/post-writer-sms/SKILL.md",
+      "skillFolderHash": "f812144f602ced37f8a3a83cb823a09dde1680d7",
+      "installedAt": "2026-06-13T14:21:19.384Z",
+      "updatedAt": "2026-06-13T14:21:19.384Z"
+    },
+    "social-media-context-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/social-media-context-sms/SKILL.md",
+      "skillFolderHash": "bff8d30fe66e3510802fae90fc046e4e013e2ce3",
+      "installedAt": "2026-06-13T14:21:19.385Z",
+      "updatedAt": "2026-06-13T14:21:19.385Z"
+    },
+    "thread-writer-sms": {
+      "source": "blacktwist/social-media-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blacktwist/social-media-skills.git",
+      "skillPath": "skills/thread-writer-sms/SKILL.md",
+      "skillFolderHash": "4b5ffb101d76229bf93e95330844762775217fe8",
+      "installedAt": "2026-06-13T14:21:19.385Z",
+      "updatedAt": "2026-06-13T14:21:19.385Z"
+    },
+    "gh-axi": {
+      "source": "kunchenguid/gh-axi",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/kunchenguid/gh-axi.git",
+      "skillPath": "skills/gh-axi/SKILL.md",
+      "skillFolderHash": "2105186c93ec44c4b2b409a1176ed570d56bd99b",
+      "installedAt": "2026-07-08T09:38:35.765Z",
+      "updatedAt": "2026-07-08T09:38:35.765Z"
+    },
+    "chrome-devtools-axi": {
+      "source": "kunchenguid/chrome-devtools-axi",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/kunchenguid/chrome-devtools-axi.git",
+      "skillPath": "skills/chrome-devtools-axi/SKILL.md",
+      "skillFolderHash": "e0382e8bd6ed7051d3c6d36e75d9ab75519f34a8",
+      "installedAt": "2026-07-08T09:39:52.689Z",
+      "updatedAt": "2026-07-08T09:39:52.689Z"
+    },
+    "lavish": {
+      "source": "kunchenguid/lavish-axi",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/kunchenguid/lavish-axi.git",
+      "skillPath": "skills/lavish/SKILL.md",
+      "skillFolderHash": "268df0e89e6d21688df757db7fa98b1ebf8b7216",
+      "installedAt": "2026-07-08T09:51:52.250Z",
+      "updatedAt": "2026-07-08T09:51:52.250Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed",
+    "openclaw",
+    "claude-code"
+  ]
+}
