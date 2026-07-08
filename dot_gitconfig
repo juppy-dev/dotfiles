@@ -1,0 +1,17 @@
+[user]
+	name = Paolo Arroyo
+	# Refuse to commit unless a workspace config below supplies the identity.
+	# Prevents accidental commits with the wrong email in unclassified repos.
+	useConfigOnly = true
+
+[includeIf "gitdir:~/Projects/"]
+	path = ~/Projects/.gitconfig
+
+[includeIf "gitdir:~/Tools/"]
+	path = ~/Tools/.gitconfig
+
+[includeIf "gitdir:~/Pacsafe/"]
+	path = ~/Pacsafe/.gitconfig
+
+[includeIf "gitdir:~/Nplus/"]
+	path = ~/Nplus/.gitconfig

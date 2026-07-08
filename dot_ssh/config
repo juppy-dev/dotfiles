@@ -1,0 +1,26 @@
+# Added by OrbStack: 'orb' SSH host for Linux machines
+# This only works if it's at the top of ssh_config (before any Host blocks).
+# This won't be added again if you remove it.
+Include ~/.orbstack/ssh/config
+
+# One Arrow (Default)
+Host github.com
+    IdentityFile ~/.ssh/id_personal
+
+# Pacsafe
+Host github.com-pacsafe
+    HostName github.com
+    IdentityFile ~/.ssh/id_pacsafe
+
+# Nplus
+Host github.com-nplus
+    HostName github.com
+    IdentityFile ~/.ssh/id_nplus
+
+# Shared options for all GitHub hosts (ssh applies first-match-wins per option,
+# so the per-host IdentityFile above always takes precedence)
+Host github.com github.com-*
+    User git
+    UseKeychain yes
+    AddKeysToAgent yes
+    IdentitiesOnly yes

@@ -1,0 +1,9 @@
+{
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "top",
+    "terminal.integrated.initialHint": false,
+    "terminal.external.osxExec": "Ghostty.app",
+    "editor.fontFamily": "Monaspace Neon NF",
+    "claudeCode.useTerminal": true,
+    "workbench.colorTheme": "Tokyo Nebula Andromeda"
+}

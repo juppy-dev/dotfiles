@@ -1,0 +1,6 @@
+# vendored/external plugin checkouts (re-installed, not backed up)
+.config/xplr/plugins
+# binary/state databases, not config
+.config/zed/prompts
+# never track embedded git repos
+**/.git

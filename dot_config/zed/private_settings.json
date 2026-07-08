@@ -1,0 +1,156 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": true,
+    },
+    "hunk_style": "staged_hollow",
+  },
+  "tabs": {
+    "file_icons": true,
+  },
+  "title_bar": {
+    "show_branch_status_icon": false,
+  },
+  "proxy": "",
+  "buffer_line_height": "comfortable",
+  "mouse_wheel_zoom": true,
+  "semantic_tokens": "combined",
+  "agent_ui_font_size": 15.0,
+  "agent_buffer_font_size": 13.0,
+  "agent_servers": {
+    "gemini": {
+      "type": "registry",
+    },
+    "codex-acp": {
+      "type": "registry",
+    },
+  },
+  "cli_default_open_behavior": "existing_window",
+  "project_panel": {
+    "dock": "right",
+  },
+  "outline_panel": {
+    "dock": "right",
+  },
+  "collaboration_panel": {
+    "dock": "right",
+  },
+  "agent": {
+    "default_model": {
+      "provider": "openai-subscribed",
+      "model": "gpt-5.5",
+      "enable_thinking": true,
+      "effort": "medium",
+    },
+    "play_sound_when_agent_done": "when_hidden",
+    "show_turn_stats": false,
+    "flexible": true,
+    "button": true,
+    "single_file_review": false,
+    "dock": "left",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "file_icons": true,
+    "show_count_badge": true,
+    "dock": "right",
+  },
+  "indent_guides": {
+    "background_coloring": "disabled",
+    "coloring": "indent_aware",
+  },
+  "tab_size": 2,
+  "terminal": {
+    "show_count_badge": true,
+    "option_as_meta": true,
+    "minimum_contrast": 50.0,
+    "cursor_shape": "block",
+    "shell": "system",
+    "toolbar": {
+      "breadcrumbs": true,
+    },
+    "font_family": "Monaspace Argon NF",
+    "font_weight": 200.0,
+    "font_size": 12.5,
+    "line_height": { "custom": 1.6 },
+  },
+  "ui_font_family": ".ZedSans",
+  "buffer_font_family": "Monaspace Neon NF",
+  "icon_theme": {
+    "mode": "light",
+    "light": "VSCode Icons",
+    "dark": "FantastIcons Icon Theme",
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "base_keymap": "Cursor",
+  "ui_font_size": 15.0,
+  "buffer_font_size": 13.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Tokyo Nebula Andromeda Frosted",
+  },
+  "lsp": {
+    "discord_presence": {
+      "initialization_options": {
+        // Application ID for the rich presence (don't touch it unless you know what you're doing)
+        "application_id": "1263505205522337886",
+        // Base URL for all language icons
+        "base_icons_url": "https://raw.githubusercontent.com/xhyrom/zed-discord-presence/main/assets/icons/",
+
+        "state": "Working on {filename}",
+        "details": "In {workspace}",
+        // URL for the large image
+        "large_image": "{base_icons_url}/{language:lo}.png", // :lo lowercase the language name
+        "large_text": "{language:u}", // :u capitalizes the first letter
+        // URL for the small image
+        "small_image": "{base_icons_url}/zed.png",
+        "small_text": "Zed",
+
+        // Idle settings - when you're inactive
+        "idle": {
+          "timeout": 300, // Idle timeout in seconds (300 seconds = 5 minutes)
+
+          // Action to take when idle
+          // `change_activity` - changes the activity to idle with the following details
+          // `clear_activity` - clears the activity (hides it)
+          "action": "change_activity",
+
+          "state": "Idling",
+          "details": "In Zed",
+          "large_image": "{base_icons_url}/zed.png",
+          "large_text": "Zed",
+          "small_image": "{base_icons_url}/idle.png",
+          "small_text": "Idle",
+        },
+
+        // Rules to disable presence in specific workspaces
+        "rules": {
+          "mode": "blacklist", // Can also be "whitelist"
+          "paths": ["absolute path"],
+        },
+
+        "git_integration": true,
+
+        // Per-language overrides
+        "languages": {
+          "rust": {
+            "state": "Hacking on {filename}",
+            "details": "Rustacean at work",
+          },
+        },
+      },
+    },
+  },
+}
