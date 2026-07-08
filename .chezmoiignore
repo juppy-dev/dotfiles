@@ -4,3 +4,6 @@
 .config/zed/prompts
 # never track embedded git repos
 **/.git
+
+# repo docs, not a home dotfile
+README.md
