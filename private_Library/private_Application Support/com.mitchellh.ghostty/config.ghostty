@@ -1,13 +1,20 @@
+# Icon
 macos-icon = xray
 macos-icon-ghost-color = #D30EC5
 macos-icon-screen-color = #FC12CF
 macos-icon-frame = plastic
 macos-custom-icon = ~/.config/ghostty/terminal-green.icns
-keybind = global:option+`=toggle_quick_terminal
 
+# Typography
 font-family = "Monaspace Argon"
-theme = "tokyo-nebula-andromeda"
-background-opacity = 0.90
+font-size = 14
+font-thicken = true
+font-thicken-strength=1
+adjust-cell-height=2
+
+# Window Appearance
+theme = "tokyo-nebula-void"
+background-opacity = 0.95
 background-blur = 25
 window-save-state = always
 window-new-tab-position = end
@@ -15,6 +22,8 @@ window-padding-x = 16
 window-padding-y = 12
 window-padding-balance = true
 macos-titlebar-style = tabs
+background=#000000
+split-divider-color = #3a3a3a
 
 
 # Notify
@@ -26,3 +35,7 @@ notify-on-command-finish-after = 10s
 window-inherit-working-directory = false
 tab-inherit-working-directory = false
 split-inherit-working-directory = true
+
+# Custom Keybinds
+keybind = shift+enter=text:\n
+keybind = global:option+`=toggle_quick_terminal

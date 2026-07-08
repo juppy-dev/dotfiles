@@ -110,3 +110,20 @@ eval "$(zoxide init zsh --cmd cd)"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# ── Ghostty per-project tab tinting ───────────────────────────────────────────
+# [[ -f ~/.config/ghostty/ghostty-colors.zsh ]] && source ~/.config/ghostty/ghostty-colors.zsh
+
+
+# Added by Antigravity CLI installer
+export PATH="/Users/juppy/.local/bin:$PATH"
+
+# Use the Nplus Claude Code config when inside ~/Nplus (any subdir); default elsewhere
+claude() {
+  case "$PWD/" in
+    "$HOME"/Nplus/*)
+      CLAUDE_CONFIG_DIR="$HOME/.claude-nplus" command claude "$@" ;;
+    *)
+      command claude "$@" ;;
+  esac
+}

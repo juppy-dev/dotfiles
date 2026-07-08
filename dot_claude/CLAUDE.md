@@ -51,6 +51,19 @@ Every commit must be:
 - **Atomic** — one logical change per commit; split unrelated work into separate commits.
 - **Single author** — never add `Co-Authored-By` or any attribution trailer.
 
+## Pull Requests
+
+- **Before creating any PR, ask which GitHub account to use** and switch with `gh auth switch -u <user>`. Multiple accounts are configured in `gh` (e.g. `juppy-dev` for personal/solo projects, `paolo-ar`, `paolo-nplus`); the active one is often wrong and PR creation fails with "Could not resolve to a Repository". Confirm the account, switch, then create the PR.
+- **Merge commit format.** When merging a PR, the merge commit subject is a conventional commit with an **ALL-CAPS type** and a **Capitalized description** (e.g. `FIX: Product Page Stripe Integration`, `FEAT: Combined Leasing Deposit Flow`) — note this differs from the lowercase `type(scope): subject` style used for regular commits. Keep GitHub's default `Merge pull request #N from …` line in the **body**, not the subject. Don't accept the plain default subject.
+
+## Superpowers Plugin — Document Paths
+
+- The superpowers skills default to saving documents under `docs/superpowers/<type>/` (e.g. `docs/superpowers/plans/`, `docs/superpowers/specs/`). **Override this**: skip the `superpowers/` segment and use `docs/<type>/` directly — `docs/plans/`, `docs/specs/`, `docs/diagrams/`, etc. Apply the same convention when looking up existing plans/specs.
+- **Diagrams rider.** Whenever you create or substantially revise a spec/design document, judge whether it warrants an architecture diagram. If the design has structure worth seeing (layers/components, a multi-step flow, a state machine, data/sequence interactions), author or update a **mermaid `.md` in `docs/diagrams/`** and reference it from the spec. If the change touches a subsystem an existing diagram already covers, **update that diagram in the same change** rather than letting it drift. Skip diagrams for trivial/localized specs (a single function, a copy tweak, a config change) — note briefly that you skipped and why. When it's a genuine toss-up whether a diagram would help, just ask me. Keep diagrams in sync as the design evolves; they are a maintained artifact, not a one-off.
+
+## Superpowers Plugin — Visual Mockups
+
+- **When asked to spin up a visual mockup** (e.g. the brainstorming skill's preview server), first ask whether it should bind to the **default (`127.0.0.1`, local only)** or to **`0.0.0.0`** (reachable over LAN/Tailscale for viewing from another device — e.g. during remote SSH sessions, or to preview on a phone). For `0.0.0.0`, pass `--host 0.0.0.0` to `start-server.sh` (or set `BRAINSTORM_HOST=0.0.0.0`). Note `0.0.0.0` exposes the server on every interface, not just Tailscale.
 
 ## Safety
 
