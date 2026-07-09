@@ -17,3 +17,7 @@ alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # claude configs
 
 alias claude-nplus="CLAUDE_CONFIG_DIR=~/.claude-nplus claude"
+
+# tool overrides
+
+alias vi=nvim
