@@ -14,7 +14,7 @@ adjust-cell-height=2
 
 # Window Appearance
 theme = "tokyo-nebula-void"
-background-opacity = 0.95
+background-opacity = 0.9
 background-blur = 25
 window-save-state = always
 window-new-tab-position = end
